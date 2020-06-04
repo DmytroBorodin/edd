@@ -251,7 +251,8 @@ footer {
 		font-size: 6.66px;
 	}
 	.wrap{
-		padding: 0 3rem 9.23rem;
+		padding: 0 3rem 0;
+		height: calc(100vh - 6.6rem);
 	}
 	.navbar {
     	padding-top: 3rem;
@@ -262,11 +263,17 @@ footer {
 	.menu__block {
 		margin-right: 0;
 	}
+	.main__content{
+		margin-top: 6.6rem;
+	}
 	.container{
 		width: 100%;
 	}
 	.countries__block {
 		display: none;
+	}
+	.img__block img {
+		width: 93.6%;
 	}
 	.width__500 {
 		display: block;
