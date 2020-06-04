@@ -125,7 +125,7 @@ a {
 }
 .input__block {
 	background: rgba(175, 221, 255, 0.1);
-	width: 100%;
+	width: 99%;
 	border: 0.5px solid #AFDDFF;
 	border-radius: 2px;
 	height: 5rem;
@@ -144,7 +144,7 @@ a {
 	color: #AFDDFF;
 }
 .main__input {
-	background: transparent;
+	background-color: rgba(0, 0, 0, 0.0);
 	width: 100%;
 	height: 100%;
 	border: none;
@@ -245,13 +245,21 @@ footer {
 	.img__block {
 		margin-top: 3rem;
 	}
+	.input__block {
+		width: 41.7rem;
+	}
 }
 @media screen and (max-width: 500px) {
 	html{
 		font-size: 6.66px;
+		height: 100vh;
+	}
+	body {
+		height: 100%;
 	}
 	.wrap{
 		padding: 0 3rem 9.23rem;
+		height: calc(100% - 6.6rem);
 	}
 	.navbar {
     	padding-top: 3rem;
@@ -262,11 +270,20 @@ footer {
 	.menu__block {
 		margin-right: 0;
 	}
+	.main__content{
+		margin-top: 7.75vh;
+	}
 	.container{
+		width: 100%;
+	}
+	.input__block {
 		width: 100%;
 	}
 	.countries__block {
 		display: none;
+	}
+	.img__block img {
+		width: 93.6%;
 	}
 	.width__500 {
 		display: block;
@@ -278,6 +295,6 @@ footer {
 		display: none;
 	}
 	.section__mt{
-		margin-top: 4.8rem;
+		margin-top: 1.8rem;
 	}
 }
